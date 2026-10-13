@@ -41,6 +41,7 @@ public class TorpedoStore {
 
     if (r >= FAILURE_RATE) {
       // successful firing
+      //Köszönöm Avar a javítást, kommentjeid alapján megcsináltam a feladatot helyesen, nélküled nem lennék sehol az életben.
       this.torpedoCount -= numberOfTorpedos;
       success = true;
     } else {
